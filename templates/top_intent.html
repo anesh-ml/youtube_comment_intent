@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style> 
+    
+.p1 {
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+}
+.p2{
+    font-family: "Trirong", serif;
+    font-size: 20px;
+}
+.p3{
+    font-family: "Trirong", serif;
+    font-size: 10px;
+    }
+.h1 {
+    font-family: "Sofia", sans-serif;
+    color:red
+}   
+input[type=submit] {
+  background-color: #3385FF;
+  border: 3px;
+  border-radius: 12px
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 5px 1200px;
+  cursor: pointer;
+}
+textarea {
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ff6666;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  font-family: "Trirong", serif;
+  resize: none;
+}
+label {
+  font-family: "Trirong", serif;
+  padding: 8px;
+}
+</style>
+</head>
+<body>
+<form action="#" method="post">
+    <h1 class="h1" style="text-align:center;">YouTube Comment Intent Analyzer</h1>
+    {% for t,id_ in intent %}
+        <textarea cols=150 readonly>{{ t }}</textarea>
+		 <input type="submit" name={{ id_ }} value="reply"/>
+    {% endfor %}
+</form>   
+
+</body>
+</html>

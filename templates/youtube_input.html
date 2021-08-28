@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style> 
+    
+.p1 {
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+}
+.p2{
+    font-family: "Trirong", serif;
+    font-size: 20px;
+}
+.h1 {
+    font-family: "Sofia", sans-serif;
+	color:red
+}   
+.input1[type=submit] {
+  background-color: #3385FF;
+  border: 3px;
+  border-radius: 12px
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  margin: 0px 675px;
+  cursor: pointer;
+}
+textarea {
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ff6666;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  font-family: "Trirong", serif;
+  resize: none;
+}
+label {
+  font-family: "Trirong", serif;
+  padding: 8px;
+}
+</style>
+</head>
+<body>
+
+
+<form action="#" method="post">
+    <h1 class="h1" style="text-align:center;">YouTube Comment Intent Analyzer</h1>
+    <p class="p1">YouTube link here</p>
+    <p><textarea rows="1" cols="100" name="url">enter the link</textarea></p>
+    <p class='p2'>Select an intent to show top results</p>
+    
+    <input type="radio" id="criticism/others" name="intent" value="criticism/others">
+    <label for="criticism/others">criticism/others</label><br>
+    <input type="radio" id="Praise" name="intent" value="Praise">
+    <label for="Praise">Praise</label><br>
+	<input type="radio" id="Idea/Suggestion/advice" name="intent" value="Idea/Suggestion/advice">
+    <label for="Idea/Suggestion/advice">Idea/Suggestion/advice</label><br>
+    <input type="radio" id="Question" name="intent" value="Question">
+    <label for="Question">Question</label><br>
+    <input type="radio" id="Request/asking" name="intent" value="Request/asking">
+    <label for="Request/asking">Request/asking</label><br>
+	<p class='p2'>Input N to retrieve the top N of the selected intent ( "*" to retrieve all)</p>
+	<p><textarea rows="1" cols="5" name="K"> </textarea></p>
+	<p class='p2'>Input common key phrases to exclude</p>
+	<p><textarea rows="5" cols="25" name="keyPhrase"> </textarea></p>
+	<p class='p2'>Filter comments by words</p>
+	<p><textarea rows="5" cols="25" name="filter"> </textarea></p>
+    <p><input class="input1" type=submit value=Show_results></p>
+</form>
+
+</body>
+</html>
