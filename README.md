@@ -23,7 +23,7 @@ This app helps to know your subscribers and improve the content. It also helps i
 ## Requirements
 
 - Youtube api
-- Download the trained model here https://drive.google.com/drive/folders/1qyoQObicY3q3zhBEo79dNgfRr1j3Vyhf?usp=sharing
+- Download the trained model here https://drive.google.com/drive/folders/1qyoQObicY3q3zhBEo79dNgfRr1j3Vyhf?usp=sharing. Download the entire `model` folder
 
 ## Steps to create Youtube api
 
