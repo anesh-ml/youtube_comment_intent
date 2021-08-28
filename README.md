@@ -28,6 +28,34 @@ This app helps to know your subscribers and improve the content. It also helps i
 ## Steps to create Youtube api
 
 1. Go to https://console.cloud.google.com/apis/
+
 2. Create a new project
+![new project](images/1.png)
 
+3. go to **APIs and Services --> Credentials --> CREATE CREDENTIALS -->OAuth client ID**
+![new project](images/2.png)
 
+4. Click **Configure Consent Screen**
+![new project](images/3.png)
+
+5. Click **External** andthen **Create**
+![new project](images/4.png)
+
+6.Enter the **App name** and your email id in **User Support mail** and finall at the end give the same email id in **Developer contact information** section. Then **Save and Continue**
+![new project](images/5.png)
+
+7. Don't do anything in the **Scopes**. Just **Save and Continue**
+
+8. **Add Users** in the **Test users**. Give your email id again.
+![new project](images/6.png)
+
+9. Make sure that you see your email id in the **user information** like below and then click **Save and continue**
+![new project](images/7.png)
+
+10. Now,again got to **Credentials--> CREATE CREDENTIALS-->OAuth client ID**. Then in the **Application Type** select **Web application**.Then give any name in the **Name** field.
+![new project](images/8.png)
+
+11.  Then scroll down. You will see **Authorised redirect URIs**. Click **Add URI**. Give this URI **http://localhost:8080/**. Te click **Create**
+![new project](images/9.png)
+
+12. Finally, you will get the api key and client secret file. Copy paste the apikey in the **get_top_intent.py** and **main_app.py**. Download the client secret file, which is a json file, and put it in the working directory. You wil have to copy the client secret file name and store it in a variable in the **main_app.py**
