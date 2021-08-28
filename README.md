@@ -59,3 +59,7 @@ This app helps to know your subscribers and improve the content. It also helps i
 ![new project](images/9.png)
 
 12. Finally, you will get the api key and client secret file. Copy paste the apikey in the **get_top_intent.py** and **main_app.py**. Download the client secret file, which is a json file, and put it in the working directory. You wil have to copy the client secret file name and store it in a variable in the **main_app.py**
+
+![new project](images/10.png)
+
+13. Make sure you **Create a youtube channel** if you don't have one with the email address you gave during **Create OAuth client**. When running the **main_app.py** file, you will be redirected to signin into your gmail account. Sign in with email address you gave durin **Create OAuth client**.
