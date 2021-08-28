@@ -20,6 +20,10 @@ This app helps to know your subscribers and improve the content. It also helps i
 - Get to know the top N comments for each category.
 - **Note:** It does not return exactly top N comments rather it returns all the comments that contain the top N words.
 
+## Output
+
+- Here is the suggestions/ideas give by the youtube users about s7 and ipad pro
+
 ## Requirements
 
 - Youtube api
