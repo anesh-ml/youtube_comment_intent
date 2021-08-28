@@ -24,6 +24,12 @@ This app helps to know your subscribers and improve the content. It also helps i
 
 - Here is the suggestions/ideas give by the youtube users about s7 and ipad pro
 
+**S7**
+![new project](images/s7.png)
+
+**Ipad pro**
+![new project](images/ipad_pro.png)
+
 ## Requirements
 
 - Youtube api
