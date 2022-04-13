@@ -1,7 +1,10 @@
 # youtube_comment_intent
 This app helps to know your subscribers and improve the content. It also helps in knowing what people think about the advertised product in a product review videos.
 
+I have explained what is data centric AI with this use case as an example.[Data_centric_doc.pdf](https://github.com/anesh-ml/youtube_comment_intent/files/8483360/Data_centric_doc.pdf)
+
 ## Features
+
 **1. Get to know your subscribers',**
 - Questions
 - Suggestions/ideas
