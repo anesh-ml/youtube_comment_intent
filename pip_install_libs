@@ -1,0 +1,6 @@
+python 3.9
+
+tensorflow-text==2.6
+tf-models-official==2.6
+
+
