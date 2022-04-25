@@ -1,5 +1,6 @@
 ## About youtube comment intent app
 - This app helps to know your subscribers and improve the content. It also helps in knowing what people think about the advertised product in a product review videos.
+- I have collected around **1800** samples for **5 classes**. By interatively improving the data, I found the model producing reasonably good results with such a small amount of data.
 - I have collected around **2000** samples totally. This is a **MVP**. The model can be improved further by collecting some more data.
 - I have explained what is data centric AI with this use case as an example.[Data_centric_doc.pdf](https://github.com/anesh-ml/youtube_comment_intent/files/8483360/Data_centric_doc.pdf)
 
